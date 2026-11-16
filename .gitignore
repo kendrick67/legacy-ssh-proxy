@@ -1,0 +1,162 @@
+# ==========================================
+# Environment variables and secrets
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# ==========================================
+# Node.js / JavaScript / TypeScript
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.npm/
+.pnpm-store/
+.nx/
+.turbo/
+.parcel-cache/
+.next/
+.nuxt/
+.svelte-kit/
+.output/
+dist/
+build/
+coverage/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+.vite/
+storybook-static/
+
+# ==========================================
+# Go
+# ==========================================
+bin/
+dist/
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.txt
+go.work
+go.work.sum
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+share/python-wheels/
+wheels/
+.eggs/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.pytype/
+.ipynb_checkpoints/
+poetry.lock
+Pipfile.lock
+
+# ==========================================
+# Build and distribution
+# ==========================================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.patch
+.cache/
+.temp/
+tmp/
+temp/
+release/
+artifacts/
+
+# ==========================================
+# IDEs and editors
+# ==========================================
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.iml
+.project
+.classpath
+.settings/
+*.swn
+*.swo
+
+# ==========================================
+# Operating systems
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# ==========================================
+# Testing and profiling
+# ==========================================
+*.prof
+*.pprof
+*.cover
+*.mem
+test-results/
+playwright-report/
+test-output/
+
+# ==========================================
+# Miscellaneous
+# ==========================================
+*.pid
+*.seed
+*.stackdump
+.npmrc.local
+.yarnrc.local
