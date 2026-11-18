@@ -160,3 +160,9 @@ test-output/
 *.stackdump
 .npmrc.local
 .yarnrc.local
+
+
+python/src/legacy_ssh_proxy/bin/
+python/dist/
+python/dist-raw/
+python/build/

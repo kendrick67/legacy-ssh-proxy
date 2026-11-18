@@ -45,11 +45,12 @@ import paramiko
 
 with legacy_ssh_proxy(
     "192.0.2.50:22",
+    insecure_ignore_host_key=True,
     known_hosts="/home/me/.ssh/known_hosts",
 ) as (host, port):
     client = paramiko.SSHClient()
     client.load_system_host_keys()
-    client.set_missing_host_key_policy(paramiko.RejectPolicy())
+    client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     try:
         client.connect(
             host,
